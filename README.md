@@ -27,10 +27,12 @@ Prompt: A full-body 2D pixel art sprite sheet character of a [describe yourself/
 ## ✂️ Prepping Your Files for the Script
 Once your AI generates the image, follow these quick steps to make it work with the python script:
 
-1. Remove the Background: Use a free background remover (like remove.bg) to turn the solid white background into a crisp, transparent canvas.
+#### 1. Remove the Background: 
+Use a free background remover (like remove.bg) to turn the solid white background into a crisp, transparent canvas.
 
-2. Crop Tight: Crop the image close to the boundaries of the character so there isn't excess empty space padding the files.
+#### 2. Crop Tight: 
+Crop the image close to the boundaries of the character so there isn't excess empty space padding the files.
 
-3. Save Your Formats:
--Save one single image holding the cup as static_drinking.png and place it in your assets/ folder.
--If you want to animate a walking sequence, slice your asset sheet into consecutive moving frames and drop them sequentially inside assets/frames/ (frame_0.png, frame_1.png, etc.).
+#### 3. Save Your Formats:
+- Save one single image holding the cup as static_drinking.png and place it in your assets/ folder.
+- If you want to animate a walking sequence, slice your asset sheet into consecutive moving frames and drop them sequentially inside assets/frames/ (frame_0.png, frame_1.png, etc.).
