@@ -18,20 +18,22 @@ Follow these exact steps to get your assistant running on your Mac desktop, even
 
 ### Step 2: Navigate to Your Folder
 Type the following command into your terminal and press `Enter` (replace the path if you saved the downloaded folder somewhere other than your Downloads folder):
-   ```bash
-   cd ~/Downloads/desktop-hydration-assistant
+```bash
+cd ~/Downloads/desktop-hydration-assistant
+```
 
 ### Step 3: Install Python Packages
 Macs do not come with the required visual graphics tools pre-installed. Paste this command into your terminal and press Enter to install them:
-   ```bash
-   pip install PySide6
+```bash
+pip install PySide6
+```
 (Note: If your Mac says command not found: pip, run python3 -m pip install PySide6 instead!)
 
 ### Step 4: Test Run the Script
 To make sure your images and character load properly, run this command to test it:
-
 ```bash
 python3 hydration_reminder.py
+```
 Your character should instantly walk onto the bottom left side of your screen! Click Got it! to close it.
 
 ## 🚀 How to Make It Run Automatically in the Background
@@ -45,7 +47,7 @@ Paste the following text into the big box:
 ```bash
 cd ~/Downloads/desktop-hydration-assistant
 python3 hydration_reminder.py
-
+```
 Go to the top menu bar, click File > Save, name it "Hydration Reminder", and save it directly into your Mac's Applications folder.
 To make it open automatically whenever you turn on your Mac, go to System Settings > General > Login Items, click the + (Plus) icon, and add your new app!
 
